@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-MainApplication<equitytest>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.equity.equitytest.MainApplication",
+            "projectName": "equitytest",
+            "vmArgs": "-Dspring.config.location=D:/kerjaan/workspace_lain/equityTest/src/main/resources/application.properties",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MainApplication<drcallbackdead>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.equity.equitytest.MainApplication",
+            "projectName": "drcallbackdead",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
